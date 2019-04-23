@@ -1,0 +1,33 @@
+{
+  "name": "@opencv-electron/webpack-reactjs",
+  "version": "0.0.0",
+  "description": "Example for using opencv4nodejs with electron.",
+  "keywords": [
+    "opencv",
+    "cv",
+    "electron",
+    "image",
+    "filter"
+  ],
+  "author": "justadudewhohacks",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justadudewhohacks/opencv-electron"
+  },
+  "bugs": {
+    "url": "https://github.com/justadudewhohacks/opencv-electron/issues"
+  },
+  "homepage": "https://github.com/justadudewhohacks/opencv-electron#readme",
+  "scripts": {
+    "start": "electron ./main/main.js",
+    "format": "prettier --single-quote --write \"{main,renderer,__{tests,mocks}__}/**/*.js\""
+  },
+  "dependencies": {
+    "electron": "^4.1.4",
+    "node-loader": "^0.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  }
+}
